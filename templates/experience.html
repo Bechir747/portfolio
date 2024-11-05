@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/experience.css') }}">
+{% endblock %}
+
+
+{% block body %}
+<div id="academic-background">
+    <h2>Work Experience</h2>
+    <div class="education-item">
+        <h3>Multi-Tenant Configuration Web Application For
+            Single-Sign-On Portal</h3>
+        <p><strong>SCHEIDT&BACHMANN (END OF STUDY INTERN)</strong> February 2024 - July 2024</p>
+        <p>Developed a web application to streamline multi-tenant data management
+            and automate API endpoint documentation. Integrated seamlessly with the
+            existing system, improving administrative workflows and user experience</p>
+        <ul>
+            <li>Learn multi-tenant architecture principles.</li>
+            <li>Develop tenant configuration API and UI module.</li>
+            <li>Gain an understanding of Single Sign-On (SSO) configuration.</li>
+            <li>Work with Devops Tools as Docker, GitLab, and Kubernetes.</li>
+        </ul>
+        <p><strong>keywords</strong>: Spring boot, Keycloak, Angular, PostgreSQL, Docker,
+            Kubernetes, Kong Gateway</p>
+    </div>
+
+    <div class="education-item">
+        <h3>E-Commerce Web Application</h3>
+        <p><strong>IP-LABEL GROUP (SUMMER INTERN)</strong> July 2023 - August 2023</p>
+        <p>Developed dynamic e-commerce web applications using the MERN stack,
+            featuring an intuitive admin dashboard for order and income management.</p>
+        <ul>
+            <li>understand concepts of web development</li>
+            <li>Design e-commerce application database</li>
+            <li>implement both e-commerce and Administrative Dashboard  MVP applications</li>
+        </ul>
+        <p><strong>keywords</strong>: React.js, Redux, Material UI, Node.js, Express.js,
+            MongoDB</p>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/experience.css') }}">
+{% endblock %}
+
+
+{% block body %}
+<div id="academic-background">
+    <h2>Projects</h2>
+    <div class="education-item">
+        <h3>Development and Design Project: Design and
+            development of a Management Course web app.
+            </h3>
+        <p><strong>ENSI</strong> March 2023 - May 2023</p>
+        <p>Developed a Management Course web application using Angular, Spring Boot, and MySQL. The platform includes an intuitive admin dashboard for streamlined management. Students can access course materials (PDFs, YouTube videos), take tests, and comment on courses. Teachers have the ability to upload courses and assign grades, providing a comprehensive environment for both learning and assessment.
+            </p>
+
+        <p><strong>keywords</strong>: Angular, Spring Boot, MySQL Workbench</p>
+    </div>
+
+    <div class="education-item">
+        <h3>Microservices-based Inventory Management System
+            with Spring Boot and Spring Cloud</h3>
+        <p><strong>PERSONAL</strong> September 2023 - October 2023</p>
+        <p>Microservices project leveraging Spring Boot and Spring Cloud, implementing
+            key concepts such as service discovery, event-driven architecture, circuit
+            breaker, and secure microservices with Keycloak integration.
+            </p>
+        <p><strong>Keywords</strong>: Angular, Spring Boot, Spring Cloud, MySQL, MongoDB,
+            Netflix Eureka, API Gateway, Kafka, OAuth 2.0, Docker</p>
+    </div>
+
+    <div class="education-item">
+        <h3>Personal Dashboard for Daily Managment</h3>
+        <p><strong>PERSONAL</strong> October 2024 - present</p>
+        <p>
+            The Personal Dashboard is a comprehensive platform designed to enhance productivity and simplify daily routines. It integrates a range of key features that enable users to manage habits, track tasks, and stay connected, providing a centralized and intuitive experience. Users can communicate and share information with one another, while each user benefits from a suite of personalized tools, including a habit tracker, note-taking and blogging capabilities, a to-do list, bookmarks, and an integrated chatbot.
+        </p>
+
+        <p><strong>Keywords</strong>: Angular, Spring Boot, Spring Security, PostgreSQL, JWT,
+           Oauth2.0, Keycloak, Websockets, Docker</p>
+    </div>
+</div>
+
+{% endblock %}

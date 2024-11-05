@@ -1,0 +1,59 @@
+/* Academic Background Section */
+#academic-background {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+
+#academic-background h2 {
+    text-align: center;
+    color: #1f242d;
+    margin-bottom: 1.5rem;
+}
+
+.education-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+    color: #1f242d;
+    margin-bottom: 0.5rem;
+}
+
+.education-item p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0.5rem 0;
+}
+
+.education-item ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    color: #333;
+}
+
+.education-item ul li {
+    margin-bottom: 0.3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #academic-background {
+        padding: 1rem;
+    }
+
+    .education-item h3 {
+        font-size: 1.1rem;
+    }
+
+    .education-item p,
+    .education-item ul li {
+        font-size: 0.85rem;
+    }
+}

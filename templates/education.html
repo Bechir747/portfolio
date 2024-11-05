@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/education.css') }}">
+{% endblock %}
+
+
+{% block body %}
+<div id="academic-background">
+    <h2>Academic Background</h2>
+    <div class="education-item">
+        <h3>Fresh Graduated Engineer in Computer Science</h3>
+        <p><strong>ENSI - National School of Computer Science</strong> - 2021 to 2024</p>
+        <ul>
+            <li>Graduated with honors (rank 68 out of 177)</li>
+            <li>Member of ENSI Competitive Programming Club</li>
+            <li>Participated in the EPC3.0 event 2024 of problem solving (rank : 10th place out of 20)</li>
+            <li>Relevant coursework: Data Structures, Algorithms, AI, Web Development, Database Managment</li>
+        </ul>
+    </div>
+
+    <div class="education-item">
+        <h3>Pre-Engineering Studies (TECHNO)</h3>
+        <p><strong>IPEIM - Preparatory Institute for Engineering Studies in Monastir</strong> - 2019 to 2021</p>
+        <ul>
+            <li>Achieved an Excellent rank, placing 38th out of 700 students</li>
+            <li>Received advanced training in mathematics and algebra</li>
+            <li>Gained foundational skills in the Python programming language.</li>
+            <li>Developed the ability to work effectively under pressure</li>
+        </ul>
+    </div>
+</div>
+
+{% endblock %}

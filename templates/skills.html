@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/skills.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="skills-container">
+<div class="title">
+    <h1>My Skills</h1>
+    <div class="underline">
+        <i class="fa-brands fa-angular"></i>
+        <i class="fa-solid fa-pepper-hot"></i>
+        <i class="fa-brands fa-docker"></i>
+        <i class="fa-solid fa-anchor"></i>
+        <i class="fa-brands fa-java"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-python"></i>
+        <i class="fa-solid fa-c"></i>
+        <i class="fa-brands fa-node-js"></i>
+        <i class="fa-brands fa-react"></i>
+    </div>
+</div>
+    {% for title, languages in data.items() %}
+    <div class="category">
+        <h1 class="category-title">{{ title }}</h1>
+        <div class="skills">
+            {% for language, score in languages %}
+            <div class="skill-box">
+                <div class="skill-name">
+                    {{ language }}
+                </div>
+                <div class="skill-progression">
+                    <div class="skill-progress">
+                        <span data-width="{{ score }}%"></span>
+                    </div>
+                    <p>{{score}}%</p>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+{% endfor %}
+</div>   
+{% endblock %}

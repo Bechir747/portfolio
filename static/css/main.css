@@ -1,0 +1,49 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: #EEE;
+    font-family: Arial, Tahoma;
+}
+
+.page-head, .page-description{
+    text-align: center;
+}
+
+.page-head{
+    font-size: 40px;
+    margin: 20px 0 0;
+}
+
+.page-description{
+    font-size: 22px;
+    margin: 10px 0 40px;
+}
+
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
