@@ -6,13 +6,9 @@ app = Flask(__name__)
 data = {
     "Programming Languages": [("Java", 90), ("JavaScript", 75), ("Python", 75), ("C++", 80)],
     "Front-end Frameworks": [("React", 45), ("Angular", 85)],
-    "Back-end Frameworks": [("Spring Boot", 45), ("Express.js", 85), ("Flask", 75)],
+    "Back-end Frameworks": [("Spring Boot", 85), ("Express.js", 65), ("Flask", 45)],
     "Databases": [("MySQL", 70), ("PostgreSQL", 85), ("MongoDB", 44)],
     "Containerization": [("Docker", 72), ("Kubernetes", 57)]
-}
-
-education = {
-
 }
 
 
