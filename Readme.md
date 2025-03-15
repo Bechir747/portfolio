@@ -6,7 +6,7 @@ This is my portfoliio website, i have developed it using :
 - Javascript
 
 
-I am supposing that you have a valid python envirement
+I am supposing that you have a valid python environment
 ## Install Dependencies
 ``pip install -r requirements.txt``
 
